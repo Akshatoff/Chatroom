@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coming+Soon&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Coming Soon', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* 
+:root {
+  --text: #f2eeed;
+  --text2: #c4c4c4;
+  --background: #011C27;
+  --primary: #FDD85D;
+  --secondary: #004b62;
+  --accent: #008284;
+} */
+
+.head {
+    margin-top:-3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size:1rem;
+
+}
+
+.chat_div {
+  height: 39rem;
+  width: 100rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.chat_border {
+  border: 2px solid #FDD85D;
+  padding: 4rem;
+  border-radius: 25px;
+  width: 40rem;
+  margin-top: -7rem;
+  margin-left: -10rem;
+}
+.chat_input {
+  height: 2rem;
+  font-size:1rem;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+  width: 15rem;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  border: 2px solid #FDD85D;
+  border-radius:25px;
+}
+.chat_button {
+  padding: 0.6rem 4rem 0.6rem 4rem;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #FDD85D;
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.chatProfileRight {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row-reverse;
+  margin-bottom: 5px;
+}
+.chatProfileLeft {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.chatProfileSpan {
+  background-color: rgb(213, 213, 182);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}

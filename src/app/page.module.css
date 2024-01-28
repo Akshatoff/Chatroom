@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coming+Soon&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Coming Soon', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* 
+:root {
+  --text: #f2eeed;
+  --text2: #c4c4c4;
+  --background: #011C27;
+  --primary: #FDD85D;
+  --secondary: #004b62;
+  --accent: #008284;
+} */
+
+
+.main_div {
+  height: 39rem;
+  widows: 100rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.heading {
+  color:#fff;
+  text-align:left;
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+}
+
+.main_input {
+  height: 2rem;
+  font-size:1.2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+  width: 15rem;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  border: 2px solid #FDD85D;
+  border-radius:25px;
+}
+.main_button {
+  padding: 0.6rem 4rem 0.6rem 4rem;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #FDD85D;
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.loading_spinner {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid #2196f3;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
